@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500&display=swap');
+*{
+    font-family: 'Noto Sans JP', sans-serif;
+}
+
+nav{
+
+    background-color: rgb(57, 58, 58);
+
+}
+
+.carousel {
+    align-items: center;
+    position: relative;
+    padding-right: 0px;
+    width: 700px ;
+    height: 400px ;
+    margin: 15px auto 0;
+}
+
+
+body{
+    margin: 0;
+    padding: 0;
+    
+    
+    min-height: 100vh;
+    background: ivory;
+    color: #379683;
+
+}
+#div123{
+    text-align: center;
+}
+
+#a2{
+    margin-left: 50px;
+}
+
+#p1{
+    margin: 40px;
+    color: #282b2b;
+    letter-spacing: 2px;
+}
+
+a{
+    
+    margin: auto auto auto;
+    text-align: center;
+    padding: 10px 5px;
+    color: #379683;
+    text-transform: uppercase;
+    letter-spacing: 4px;
+    text-decoration: none;
+    font-size: 16px;
+    overflow: hidden;
+    transition: 0.2s;
+
+}
+
+a:hover{
+    color: ivory;
+    background: #379683;
+    box-shadow: 0 0 10px #379683, 0 0 40px #379683, 0 0 80px #379683;
+    transition-delay: 0.5s;
+}
+
+footer{
+    
+    position: relative;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    padding-top: 30px;
+    box-sizing: border-box;
+    background:rgb(57, 58, 58);
+    height:35vh;
+    width: 98vw;
+    color:white;
+    opacity: .9;
+}
+
+.footer-content{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+    flex-direction: column;
+    text-align: center;
+
+}
+
+.footer-content h3{
+    font-size: 2rem;
+    font-weight: 400;
+    text-transform: capitalize;
+    line-height: 3rem;
+}
+
+.footer-content p{
+    max-width: 500px;
+    margin: 0px auto;
+    line-height: 15px;
+    font-size: 14px;
+}
+
+.socials{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 1rem 0 3rem 0;    
+}
+.socials li{
+    margin: 0 10px;
+}
+.socials a{
+    text-decoration: none;
+    color:ivory;
+}
+
+.socials a i{
+    font-size: 1.1rem;
+    transition: color .4s ease;
+}
+
+.socials a:hover i{
+    color: ivory;
+
+}
+
+.footer-bottom{
+    background: #212222;
+    width: 98vw;
+    padding: 0;
+    padding-top: 0%;
+    text-align: center;
+    position: absolute;
+    top:35vh;
+}
+
+.footer-bottom p{
+    font-size: 14px;
+    word-spacing: 2px;
+    text-transform: capitalize;
+}
+
+.footer-bottom span{
+    text-transform: uppercase;
+    opacity: .4;
+    font-weight: 200;
+
+}
+
+#div1{
+    margin: 20px auto 0;
+}
+
+.Ashish{
+    width: 100px;
+    height: 100px;
+    clip-path: circle();
+}
+.Aditya{
+    width: 100px;
+    height: 110px;
+    clip-path: circle();
+}
+.Vishal{
+    width: 100px;
+    height: 100px;
+    clip-path: circle();
+}
+.Kunal{
+    width: 100px;
+    height: 110px;
+    clip-path: circle();
+}
+
+#h12{
+    text-align: center;
+    margin: 50px;
+}
+
+#h13{
+    margin: 20px;
+}
+
+#p12{
+    margin: 10px;
+    word-spacing: 2px;
+    color: #212222;
+    margin-left: 15px;
+}
+@media only screen and (max-width: 600px) {
+    .carousel {
+      width:auto ;
+    }
+    .col-3 a{
+        position: relative;
+        right: -80px;
+    }
+    .navbar-brand{
+        padding: 0px;
+        margin: 0px;
+        position:relative;
+        left: 0px; 
+    }
+
+
+  }
